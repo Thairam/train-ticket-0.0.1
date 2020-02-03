@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="newTests.TestFlowOne">
+        <methods>
+          <include name="testSelectContacts"/>
+          <include name="setUp"/>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="testTicketConfirm"/>
+          <include name="testTicketPay"/>
+          <include name="testEnterStation"/>
+          <include name="testBooking"/>
+          <include name="testTicketCollect"/>
+        </methods>
+      </class> <!-- newTests.TestFlowOne -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
